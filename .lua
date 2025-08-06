@@ -17,3 +17,5 @@ sky.SkyboxRt = imgId
 sky.SkyboxUp = imgId
 
 sky.Parent = Lighting
+
+game:GetService("Lighting").Ambient = Color3.new(0.5, 2, 0)
